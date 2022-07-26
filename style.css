@@ -1,0 +1,245 @@
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .container {
+        width: 100%;
+        /* background-color: aqua; */
+    }
+    
+    .top-h {
+        height: 50px;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        box-shadow: 1px 1px 3px -1px black;
+    }
+    
+    .first-icon {
+        height: 100%;
+        width: 90%;
+        /* background-color: blue; */
+        display: flex;
+    }
+    
+    .sagor {
+        height: 20px;
+        width: 20px;
+        /* margin-left: 80px; */
+        position: fixed;
+        left: 225px;
+    }
+    
+    .sagor img {
+        height: 100%;
+        width: 100%;
+        margin: 15px auto;
+    }
+    
+    #ico-1 {
+        margin: 15px auto;
+        position: relative;
+        right: 55px;
+    }
+    
+    #ico-2 {
+        margin: 15px auto;
+        position: relative;
+        right: 40px;
+    }
+    
+    #search {
+        width: 1000px;
+        margin: 10px auto;
+        height: 30px;
+        margin-left: 60px;
+        /* padding-left: 30px; */
+        /* position: absolute;
+        left: 50px; */
+        border-radius: 20px;
+    }
+    
+    #leftangel {
+        font-size: 25px;
+        margin: 10px auto;
+        padding-left: 15px;
+        /* font-weight: 400; */
+    }
+    
+    #rightangel {
+        font-size: 25px;
+        margin: 10px auto;
+        padding-left: 50px;
+    }
+    
+    #loading {
+        font-size: 20px;
+        margin: 13px auto;
+        padding-left: 50px;
+    }
+    
+    .right-icon {
+        width: 10%;
+        height: 50px;
+        background-color: white;
+        display: flex;
+    }
+    
+    .logo-2,
+    .logo-3 {
+        height: 20px;
+        width: 20px;
+        margin: 10px auto;
+    }
+    
+    .logo-2 img,
+    .logo-3 img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .logo-1 {
+        height: 40px;
+        width: 40px;
+        background-color: rgb(210, 180, 180);
+        border-radius: 50%;
+        margin: 5px auto;
+    }
+    
+    .logo-1 img {
+        height: 90%;
+        width: 90%;
+        margin: auto;
+        padding-left: 3px;
+        padding-top: 2px;
+    }
+    
+    .bottom-h {
+        height: 100px;
+        width: 100%;
+        /* background-color: blue; */
+    }
+    
+    .sub-b-h {
+        height: 100%;
+        width: 25%;
+        float: right;
+        /* background-color: rgb(255, 0, 217); */
+        display: flex;
+    }
+    
+    .sub-b-h p {
+        margin: 40px 5px;
+        padding-left: 25px;
+        text-transform: capitalize;
+        font-size: 20px;
+        font-weight: 900;
+    }
+    
+    .b-h {
+        height: 20px;
+        width: 20px;
+        margin: 40px 20px;
+    }
+    
+    .b-h img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .b-h-b {
+        height: 40px;
+        width: 40px;
+        float: right;
+        margin: 30px 20px;
+        background-color: rgb(227, 221, 212);
+        border-radius: 50%;
+    }
+    
+    .b-h-b img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .final {
+        width: 100%;
+        height: 450px;
+        /* background-color: red; */
+    }
+    
+    .sub-final {
+        height: 100%;
+        width: 500px;
+        /* background-color: aqua; */
+        margin: auto;
+        /* display: flex; */
+    }
+    
+    .text {
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        font-size: 60px;
+    }
+    
+    .text p {
+        color: blue;
+        padding-top: 40px;
+        /* margin-bottom: 50px; */
+    }
+    
+    .text p::after {
+        content: "gle";
+        color: tomato;
+    }
+    
+    .sub-final input {
+        width: 100%;
+        height: 30px;
+        margin: 20px auto;
+        border-radius: 30px;
+        margin-top: 50px;
+    }
+    
+    .mic {
+        height: 20px;
+        width: 20px;
+        position: relative;
+        bottom: 45px;
+        left: 460px;
+    }
+    
+    .mic img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .sub-final i {
+        position: relative;
+        top: 75px;
+        left: 10px;
+        font-size: 20px;
+    }
+    
+    .footer {
+        height: 60px;
+        width: 60px;
+        margin: auto;
+        /* padding-top: 20px; */
+        background-color: lightcyan;
+        border-radius: 50%;
+    }
+    
+    .footer img {
+        height: 100%;
+        width: 100%;
+        /* margin: auto; */
+    }
+    
+    .sub-final h2 {
+        text-align: center;
+        font-size: 17px;
+        padding-top: 20px;
+        text-transform: capitalize;
+    }
